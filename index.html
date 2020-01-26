@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Javascript + DOM</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Shopping List</h1>
-	<p id="first">Get it done today</p>
-	<h2>Hint:How it works?</h2>
-	<p>1. You can add items to list by click "to cart" button or just press "enter" right after keying in a new item.</p>
-	<p>2. You can't add items if you don't type any letter in the text box.</p>
-	<input id="userinput" type="text" placeholder="What do you need?">
-	<button id="enter">to cart</button>
-	<ul>
-		<li class="bold red" random="23">Notebook</li>
-		<li>Jello</li>
-		<li>Spinach</li>
-		<li>Rice</li>
-		<li>Birthday Cake</li>
-		<li>Candles</li>
-	</ul>
+	<div class="container">
+		<h1>A Shopping List</h1>
+		<p id="first">Get it done today</p>
+		<h2>How it works?</h2>
+		<p>1. You can add items to list by click "to cart" button or just press "enter" right after keying in a new item.</p>
+		<p>2. You can't add items if you don't type any letter in the text box.</p>
+		<p>3. After item is added, you can delete it by click the "-" button.</p>
+		<input id="userinput" type="text" placeholder="What do you need?">
+		<button id="enter">add to list</button>
+		<ul>
+			<li class="bold red" random="23"><button class="deletebtn">-</button>Notebook</li>
+			<li><button class="deletebtn">-</button>Jello</li>
+			<li><button class="deletebtn">-</button>Spinach</li>
+			<li><button class="deletebtn">-</button>Rice</li>
+			<li><button class="deletebtn">-</button>Birthday Cake</li>
+			<li><button class="deletebtn">-</button>Candles</li>
+		</ul>
+	</div>
+	
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
