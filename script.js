@@ -77,6 +77,16 @@ ul.addEventListener("click", function(e){
 // 	target.classList.toggle("done");
 // }
 
+// // version3 use for loop to change the clicked item's class
+// for (var i=0; i<li.length; i++){
+//     li[i].addEventListener("click", linethrough, false);
+// }
+
+// function linethrough(){
+//     event.target.classList.toggle("done");
+// }
+
+
 // >>>>>>>>> add button after item <<<<<<<<
 
 
